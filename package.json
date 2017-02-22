@@ -1,0 +1,23 @@
+{
+  "name": "realtime-tweeter-post-to-yammer",
+  "version": "1.0.0",
+  "description": "Post to yammer realtime tweets containing a given keyword",
+  "main": "rtty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tweeter",
+    "yammer"
+  ],
+  "author": "christophe bellec",
+  "license": "GPL-3.0",
+  "repository" : {
+	"type" : "git",
+	"url" : "https://github.com/christophe77/realtime-tweeter-post-to-yammer.git"
+  }
+  "dependencies": {
+    "twitter": "^1.7.0",
+    "yammer-rest-api-client": "^0.2.10"
+  }
+}
